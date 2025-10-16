@@ -26,9 +26,11 @@ export default function BackgroundGradientAnimationDemo() {
           fifthColor = {colorB}
           pointerColor = {colorA}
           blendingValue = "soft-light"
+          interactive = {false}
+
     >
-      <div className="absolute z-50 inset-0 flex items-center justify-center text-white   text-3xl text-center overflow-auto">
-        <div className="flex flex-col items-center justify-center gap-12 m-10">
+      <div className="absolute z-50 y-100 inset-0 flex justify-center text-white text-3xl text-center overscroll-a overflow-y-scroll">
+        <div className="flex flex-col items-center gap-12 pb-12">
           <Heading />
           <Content />
         </div>

@@ -12,7 +12,7 @@ export default function Heading () {
 
 return (
 
-    <div className="place-items-center grid grid-cols-1 gap-4 max-w-md font-bold mt-20">
+    <div className="place-items-center grid grid-cols-1 gap-4 max-w-md font-bold ">
         <div className="flex items-center justify-center">
            <Image
             className="rounded-full"
