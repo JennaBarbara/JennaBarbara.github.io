@@ -2,6 +2,11 @@
 import LinkButton from "@/components/link-button";
 import headshot from "@/components/assets/headshot.png";
 import Image from 'next/image'
+import { Doto } from 'next/font/google'
+
+const doto = Doto({
+  weight: '800'
+})
 
 
 
@@ -9,8 +14,16 @@ export default function Heading () {
 
 return (
 
-    <div className="place-items-center grid grid-cols-1 gap-4 max-w-md font-bold">
-        <div className="flex items-center justify-center">
+    <div className="place-items-center grid grid-cols-1 gap-4 md:max-w-md font-bold">
+        <div>
+          <h1 className={doto.className + " skew-y-3 skew-x-12 drop-shadow-[0_2.2px_2.2px_rgba(71,85,105,0.8)]  text-5xl md:text-7xl"}>
+            Jenna
+          </h1>
+          <h1 className={doto.className + " -skew-y-2 -skew-x-12 drop-shadow-[0_2.2px_2.2px_rgba(71,85,105,0.8)]  drop-shadow-2xl text-5xl md:text-7xl"}>
+            Christensen
+          </h1>
+        </div>
+        <div className="flex items-center drop-shadow-[0_1.5px_1.5px_rgba(71,85,105,0.8)] justify-center">
            <Image
             className="rounded-full"
             src={headshot}
@@ -19,10 +32,8 @@ return (
             alt="headshot"
           />
         </div>
-        <h1 className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/40 to-white/90 text-5xl">
-          Jenna Christensen
-        </h1>
-        <p className="text-white text-xl">
+          
+        <p className="drop-shadow-[0_1.2px_1.2px_rgba(71,85,105,0.8)]  text-white text-xl">
           Toronto Based Software Engineer
         </p> 
         <div className="flex flex-col md:flex-row" >
