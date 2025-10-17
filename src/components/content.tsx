@@ -68,7 +68,7 @@ return (
           Raccoons to Riches
         </h3>
         <p>
-          I made all of the art assets and some limited UI design and code contributions on this upcoming videogame. It&apos;s a roguelike deckbuilder about running an item shop in a fantasy setting. The steam page can be found <a className="text-slate-600 font-bold" href="https://store.steampowered.com/app/3778620/Raccoons_to_Riches/">here</a>. 
+          I made all of the art assets and some limited UI design and code contributions on this upcoming videogame, built with the Godot Engine. It&apos;s a roguelike deckbuilder about running an item shop in a fantasy setting. The steam page can be found <a className="text-slate-600 font-bold" href="https://store.steampowered.com/app/3778620/Raccoons_to_Riches/">here</a>. 
         </p>
       </div>
 
