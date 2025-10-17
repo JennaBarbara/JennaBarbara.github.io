@@ -6,21 +6,25 @@ import { Doto } from 'next/font/google'
 
 const doto = Doto({
   subsets: ["latin"],
-  weight: '800'
+  weight: "variable",
+  axes: ["ROND"],
+  
 })
 
 
 
 export default function Heading () {
 
+  const nameStyle = doto.className +" drop-shadow-[0_2.2px_2.2px_rgba(71,85,105,0.8)] [font-variation-settings:'ROND'100] font-black text-5xl md:text-7xl"
+
 return (
 
     <div className="place-items-center grid grid-cols-1 gap-4 md:max-w-md font-bold">
         <div>
-          <h1 className={doto.className + " skew-y-3 skew-x-12 drop-shadow-[0_2.2px_2.2px_rgba(71,85,105,0.8)]  text-5xl md:text-7xl"}>
+          <h1 className={"skew-y-3 skew-x-12 " + nameStyle}>
             Jenna
           </h1>
-          <h1 className={doto.className + " -skew-y-2 -skew-x-12 drop-shadow-[0_2.2px_2.2px_rgba(71,85,105,0.8)]  drop-shadow-2xl text-5xl md:text-7xl"}>
+          <h1 className={"-skew-y-2 -skew-x-12 " + nameStyle}>
             Christensen
           </h1>
         </div>
