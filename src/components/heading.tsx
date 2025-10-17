@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { Doto } from 'next/font/google'
 
 const doto = Doto({
+  subsets: ["latin"],
   weight: '800'
 })
 
