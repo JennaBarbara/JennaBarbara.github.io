@@ -29,9 +29,10 @@ export default function BackgroundGradientAnimationDemo() {
           interactive = {false}
 
     >
-      <div className="absolute z-50 y-100 inset-0 flex justify-center text-white text-3xl text-center overscroll-a overflow-y-scroll">
-        <div className="flex flex-col items-center gap-12 pb-12">
+      <div className="absolute z-50 inset-0 flex justify-center text-white text-3xl text-center overflow-auto overflow-y-scroll p-8 pt-16">
+        <div className="flex flex-col items-center gap-12">
           <Heading />
+
           <Content />
         </div>
       </div>

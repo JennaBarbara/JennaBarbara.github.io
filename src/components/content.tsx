@@ -5,7 +5,7 @@ export default function Content () {
 
 return (
 
-    <>
+    <div className="flex flex-col items-center gap-12 pb-12">
         <Card title="About" >
         <p>Hi, how are you?  I&apos;m Jenna, a software engineer living in downtown Toronto. I&apos;ve been working as a frontend leaning fullstack developer at startups and growth-stage companies for the past few years. Those are the kind of roles I flourish in. I thrive when working in multidisciplinary teams where I can interface directly with stakeholders to create optimal solutions to match the needs of end users. 
 
@@ -82,7 +82,7 @@ return (
       </div>
 
     </Card>
-    </>
+    </div>
 
 
 )

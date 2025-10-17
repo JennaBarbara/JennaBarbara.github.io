@@ -1,18 +1,15 @@
 
 import LinkButton from "@/components/link-button";
-import headshot from "@/components/assets/IMG_8937 2.png";
+import headshot from "@/components/assets/headshot.png";
 import Image from 'next/image'
+
 
 
 export default function Heading () {
 
-
-
-
-
 return (
 
-    <div className="place-items-center grid grid-cols-1 gap-4 max-w-md font-bold ">
+    <div className="place-items-center grid grid-cols-1 gap-4 max-w-md font-bold">
         <div className="flex items-center justify-center">
            <Image
             className="rounded-full"
@@ -34,8 +31,6 @@ return (
         <LinkButton text="Codeberg" href="https://codeberg.org/JennaBarbara" />
         <LinkButton text="Bluesky" href="https://bsky.app/profile/jenbarb.bsky.social" />
         </div>
-
-
       </div>
 )
 };
