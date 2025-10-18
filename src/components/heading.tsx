@@ -45,7 +45,6 @@ return (
         <LinkButton text="LinkedIn" href="https://www.linkedin.com/in/jenna-christensen-0731b1b1/"/> 
         <LinkButton text="GitHub" href="https://github.com/JennaBarbara" />
         <LinkButton text="Codeberg" href="https://codeberg.org/JennaBarbara" />
-        <LinkButton text="Bluesky" href="https://bsky.app/profile/jenbarb.bsky.social" />
         </div>
       </div>
 )
