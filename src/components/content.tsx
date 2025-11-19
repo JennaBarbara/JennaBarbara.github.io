@@ -18,6 +18,14 @@ return (
     <Card title="Personal Projects">
       <div className="flex flex-col gap-2">
         <h3 className="text-lg font-medium">
+          Number Pyle
+        </h3>
+        <p>
+          Number Pyle was originally conceived of as a paper and dice game by a Toronto game developer. The game involves trying to make vertical/horizontal lines between matching numbers on a grid. I adapted it as a browser game over using React and Typescript. The game can be played <a className="text-slate-600 font-bold" href="https://jennabarbara.github.io/number-pyle/">here</a> and the game source code can be found <a className="text-slate-600 font-bold" href="https://github.com/JennaBarbara/number-pyle">here</a>.
+        </p>
+      </div>
+      <div className="flex flex-col gap-2">
+        <h3 className="text-lg font-medium">
           The Freesewing Sophie Slip 
         </h3>
         <p>
