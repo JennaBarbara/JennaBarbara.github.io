@@ -7,10 +7,13 @@ return (
 
     <div className="flex flex-col items-center gap-12 pb-12">
         <Card title="About" >
-        <p>Hi, how are you?  I&apos;m Jenna, a software engineer living in downtown Toronto. I&apos;ve been working as a frontend leaning fullstack developer at startups and growth-stage companies for the past few years. Those are the kind of roles I flourish in. I thrive when working in multidisciplinary teams where I can interface directly with stakeholders to create optimal solutions to match the needs of end users. 
+   <p>
+     My name is Jenna, and I am a software engineer based in downtown Toronto. I have spent most of my career working as a frontend-focused full stack engineer at startups and mid-level companies.I thrive in environments where I can take ownership and interface with real-world problems.
+   </p>
+   <p>
+    I enjoy working in multidisciplinary teams and value the opportunity to collaborate directly with stakeholders to translate ideas into user centered solutions that thoughtfully and effectively meet the needs of end users.
+    </p>
 
-        </p>
-  
         
 
 
@@ -21,7 +24,7 @@ return (
           Number Pyle
         </h3>
         <p>
-          Number Pyle was originally conceived of as a paper and dice game by a Toronto game developer. The game involves trying to make vertical/horizontal lines between matching numbers on a grid. I adapted it into a browser game using React and Typescript. The game can be played <a className="text-slate-600 font-bold" href="https://jennabarbara.github.io/number-pyle/">online here</a> and the game source code can be found <a className="text-slate-600 font-bold" href="https://github.com/JennaBarbara/number-pyle">here</a>.
+          Number Pyle was originally conceived of as a paper and dice game by a Toronto game designer. The game involves trying to make vertical/horizontal lines between matching numbers on a grid. I adapted the rule-set to make it available as a browser game using React and Typescript. I also extended the rule-set to create a few different game modes that took advantage of the digital format. The game can be played <a className="text-slate-600 font-bold" href="https://jennabarbara.github.io/number-pyle/">online here</a> and the game source code can be found <a className="text-slate-600 font-bold" href="https://github.com/JennaBarbara/number-pyle">here</a>.
         </p>
       </div>
       <div className="flex flex-col gap-2">
@@ -29,7 +32,15 @@ return (
           The Freesewing Sophie Slip 
         </h3>
         <p>
-          Freesewing is an open-source platform for generating made-to-measure sewing patterns. The designs the patterns are based on are written as javascript code. I wanted to sew myself a slip dress, so I decided to try using the FreeSewing API to draft a new design. The Sophie Slip can be found on the official FreeSewing website,  <a className="text-slate-600 font-bold" href="https://freesewing.eu/designs/sophie/">here</a> and  a branch with my code contributions can be found <a className="text-slate-600 font-bold" href="https://codeberg.org/JennaBarbara/freesewing/src/branch/sophie-slip-design">here</a>. 
+          I contributed to Freesewing, an open source JavaScript library for garment construction by developing a customizable dress design which conforms to the body measurements provided by users. The design, which I titled the Sophie Slip, can be found on <a className="text-slate-600 font-bold" href="https://freesewing.eu/designs/sophie/">the official FreeSewing website</a> and a branch with my code contributions can be found <a className="text-slate-600 font-bold" href="https://codeberg.org/JennaBarbara/freesewing/src/branch/sophie-slip-design">here</a>. 
+        </p>
+      </div>
+         <div className="flex flex-col gap-2">
+        <h3 className="text-lg font-medium">
+          The Zine Machine
+        </h3>
+        <p>
+          The Zine Machine is a web app I created that allows users to convert their images files into a PDF for printing classic 8 page zines. This 8 page zine format is popular in the indie comics community, but can be a fit annoying to format digitally. I built the app using React and Typescript. I used the jsPDF library for PDF generation, and the dnd kit library to enable users to reorder their images with drag and drop. The app can be found <a className="text-slate-600 font-bold" href="https://jennabarbara.github.io/zine-machine/">here</a> and the source code can be found <a className="text-slate-600 font-bold" href="https://github.com/JennaBarbara/zine-machine">here</a>.
         </p>
       </div>
 
@@ -38,7 +49,7 @@ return (
           Raccoons to Riches
         </h3>
         <p>
-          I made all of the art assets and some limited UI design and code contributions on this upcoming videogame, built with the Godot Engine. It&apos;s a roguelike deckbuilder about running an item shop in a fantasy setting. The steam page can be found <a className="text-slate-600 font-bold" href="https://store.steampowered.com/app/3778620/Raccoons_to_Riches/">here</a>. 
+          I made the art assets, in addition to some UI design and code contributions on an upcoming videogame, called Raccoons to Riches. The game was built with the Godot Engine. It is a roguelike deckbuilder about running an item shop in a fantasy setting. The steam page can be found <a className="text-slate-600 font-bold" href="https://store.steampowered.com/app/3778620/Raccoons_to_Riches/">here</a>. 
         </p>
       </div>
 
