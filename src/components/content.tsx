@@ -8,7 +8,7 @@ return (
     <div className="flex flex-col items-center gap-12 pb-12">
         <Card title="About" >
    <p>
-     My name is Jenna, and I am a software engineer based in downtown Toronto. I have spent most of my career working as a frontend-focused full stack engineer at startups and mid-level companies.I thrive in environments where I can take ownership and interface with real-world problems.
+     My name is Jenna, and I am a software engineer based in downtown Toronto. I have spent most of my career working as a frontend-leaning full stack engineer at startups and mid-level companies. I thrive in environments where I can take ownership and interface with real-world problems.
    </p>
    <p>
     I enjoy working in multidisciplinary teams and value the opportunity to collaborate directly with stakeholders to translate ideas into user centered solutions that thoughtfully and effectively meet the needs of end users.
